@@ -1,0 +1,31 @@
+<% include partials/header.ejs %>
+
+<!-- Main -->
+<main>
+    <div class="container-fluid">
+            <h2>
+                To contact me driectly please enter the form below
+            </h2>
+            <form>
+                <div class="form-group">
+                    <label for="nameLabel">Full Name</label>
+                    <input type="text" class="form-control" id="nameLabel" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                    <label for="companyLabel">Company Name</label>
+                    <input type="text" class="form-control" id="companyLabel" placeholder="Toasted Technologies">
+                </div>
+                <div class="form-group">
+                    <label for="emailLabel">Email address</label>
+                    <input type="email" class="form-control" id="emailLabel" placeholder="John.Smith@ToastedTech.com">
+                </div>
+                <div class="form-group">
+                    <label for="comment">Comment:</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+                <a href="/index" class="btn btn-info" role="button">Send</a>
+            </form>
+        </div>
+</main>
+
+<% include partials/footer.ejs %>
