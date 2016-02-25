@@ -1,5 +1,13 @@
-<% include partials/header.ejs %>
+<!--
+//File Name   : comp2068_midterm_tylercadeau\views\contact.ejs
+//Author Name : Tyler Cadeau
+//Student Num : 200246900
+//Website	  : https://comp2068midtermtylercadeau.herokuapp.com/
+//Description : This view containes my contact page which also brings in 3 partial pages (header/navbar/footer)
+-->
 
+<% include partials/header.ejs %>
+<% include partials/navbar.ejs %>
 <!-- Main -->
 <main>
     <div class="container-fluid">
@@ -7,22 +15,27 @@
                 To contact me driectly please enter the form below
             </h2>
             <form>
+                <!-- Name -->
                 <div class="form-group">
                     <label for="nameLabel">Full Name</label>
                     <input type="text" class="form-control" id="nameLabel" placeholder="John Smith">
                 </div>
+                 <!-- Company -->
                 <div class="form-group">
                     <label for="companyLabel">Company Name</label>
                     <input type="text" class="form-control" id="companyLabel" placeholder="Toasted Technologies">
                 </div>
+                 <!-- Email -->
                 <div class="form-group">
                     <label for="emailLabel">Email address</label>
                     <input type="email" class="form-control" id="emailLabel" placeholder="John.Smith@ToastedTech.com">
                 </div>
+                 <!-- Comment -->
                 <div class="form-group">
                     <label for="comment">Comment:</label>
                     <textarea class="form-control" rows="5" id="comment"></textarea>
                 </div>
+                 <!-- Submit Button -->
                 <a href="/index" class="btn btn-info" role="button">Send</a>
             </form>
         </div>
