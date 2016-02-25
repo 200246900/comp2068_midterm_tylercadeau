@@ -5,6 +5,7 @@
  */
 
 var app = require('./app');
+//var app = require('./server/app');
 var debug = require('debug')('comp2068_midterm_tylercadeau:server');
 var http = require('http');
 
