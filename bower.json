@@ -1,0 +1,24 @@
+{
+  "name": "comp2068_midterm_tylercadeau",
+  "description": "Midterm",
+  "main": "",
+  "authors": [
+    "200246900 <200246900@student.georgianc.on.ca>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/200246900/comp2068_midterm_tylercadeau",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/Scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.5.0"
+  }
+}
